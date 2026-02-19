@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vectron Robotics | FTC Team 17873</title>
+  <link rel="icon" type="image/png" href="img/vectron-logo.png">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,400;0,500;0,600;0,700;1,400&family=DM+Sans:ital,wght@0,400;0,500;0,600;0,700&display=swap" rel="stylesheet">
+  <link rel="preload" href="img/team/Group.jpeg" as="image">
+  <link rel="preload" href="img/school-logo.png" as="image">
+</head>
+<body>
+  <div class="page-bg" aria-hidden="true">
+    <div class="page-bg-glow" data-speed="0.2"></div>
+    <div class="page-bg-orb page-bg-orb-1" data-speed="0.25"></div>
+    <div class="page-bg-orb page-bg-orb-2" data-speed="0.15"></div>
+    <div class="page-bg-orb page-bg-orb-3" data-speed="0.18"></div>
+    <div class="page-bg-orb page-bg-orb-4" data-speed="0.12"></div>
+    <div class="page-bg-geo page-bg-diamond" data-speed="0.2"></div>
+    <div class="page-bg-geo page-bg-ring" data-speed="0.17"></div>
+    <div class="page-bg-geo page-bg-square" data-speed="0.16"></div>
+    <div class="page-bg-geo page-bg-circle" data-speed="0.19"></div>
+    <div class="page-bg-doodle" data-speed="0.14">
+      <svg viewBox="0 0 100 40" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 20 Q25 5 50 20 T95 20"/></svg>
+    </div>
+  </div>
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="#" class="nav-logo" aria-label="Vectron Robotics - acasă">
+        <img src="img/vectron-logo.png" alt="" class="nav-logo-img">
+        <span class="logo-team">VECTRON</span>
+        <span class="logo-num">17873</span>
+      </a>
+      <button class="nav-toggle" aria-label="Deschide meniul" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="#about">Despre</a></li>
+        <li><a href="#team">Echipă</a></li>
+        <li><a href="#robot">Robot</a></li>
+        <li><a href="#stats">Performanță</a></li>
+        <li><a href="#competitions">Competiții</a></li>
+        <li><a href="#sponsors">Sponsori</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <div class="hero-content parallax-slow">
+      <img src="img/vectron-logo.png" alt="Vectron Robotics" class="hero-logo">
+      <p class="hero-meta">FTC Team 17873 • Dej, Romania</p>
+      <h1 class="hero-title">
+        <span class="hero-title-main">VECTRON</span>
+      </h1>
+      <p class="hero-tagline">O echipă de liceu care construiește roboți și abilități prin FIRST Tech Challenge</p>
+      <div class="hero-cta">
+        <div class="hero-cta-socials">
+          <a href="https://www.instagram.com/vectron_robotics/" target="_blank" rel="noopener" class="btn btn-primary">Urmărește-ne</a>
+          <a href="https://www.tiktok.com/@vectronrobotics" target="_blank" rel="noopener" class="btn btn-outline">TikTok</a>
+          <a href="https://www.facebook.com/vectronrobotics" target="_blank" rel="noopener" class="btn btn-outline">Facebook</a>
+          <a href="https://ftcscout.org/teams/17873" target="_blank" rel="noopener" class="btn btn-outline">FTCScout</a>
+        </div>
+        <div class="hero-cta-links">
+          <a href="https://firebasestorage.googleapis.com/v0/b/vectron-storage.firebasestorage.app/o/Caiet%20Tehnic%20Vectron%20Robotics.pdf?alt=media&token=e27f9d90-7e05-4845-8e8d-2fec9101cc77" download="Caiet-Tehnic-Vectron-Robotics.pdf" class="btn btn-outline">Caiet Tehnic</a>
+          <a href="Portofoliu%20tehnic%20Vectron%20Robotics.pdf" download="Portofoliu-tehnic-Vectron-Robotics.pdf" class="btn btn-outline">Portofoliu tehnic</a>
+          <a href="#robot" class="btn btn-outline">Vizualizator robot</a>
+          <a href="https://github.com/Luca-danciu/Decode-Vectron" target="_blank" rel="noopener" class="btn btn-outline">Robot code</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section id="about" class="section about parallax-section about-merged">
+    <div class="container">
+      <div class="section-header content-scroll">
+        <span class="section-tag">Despre noi</span>
+        <h2 class="section-title">Construim viitorul, un robot odată</h2>
+        <p class="about-tagline">Echipa Vectron — inginerie, programare și competiție din 2019</p>
+      </div>
+      <div class="about-layout">
+        <div class="about-content content-scroll">
+          <a href="https://ro.wikipedia.org/wiki/Colegiul_Na%C8%9Bional_%E2%80%9EAndrei_Mure%C8%99anu%E2%80%9D_din_Dej" target="_blank" rel="noopener" class="about-school-link">
+            <img src="img/school-logo.png" alt="Colegiul Național Andrei Mureșanu">
+            <span class="about-school-name">Colegiul Național „Andrei Mureșanu" <em>Dej</em></span>
+          </a>
+          <p class="about-lead">Vectron este o echipă FTC din <strong>Colegiul Național „Andrei Mureșanu”</strong> din Dej, județul Cluj. Fondată în 2019 ca echipă debutantă, participăm la Liga Nord România din cadrul FIRST Tech Challenge.</p>
+          <p class="about-meta">
+            <span class="about-meta-item"><strong>Locație</strong> Dej, județul Cluj, România</span>
+            <span class="about-meta-item"><strong>Anul debutului</strong> 2019 • Liga Nord România FTC</span>
+            <span class="about-meta-item"><strong>Sezon</strong> 2025–2026 • DECODE™ presented by RTX</span>
+          </p>
+        </div>
+      </div>
+
+      <div class="about-team-hero">
+        <div class="team-group-photo parallax-card cursor-tilt" data-speed="0.018">
+          <img src="img/team/Group.jpeg" alt="Echipa Vectron Robotics">
+        </div>
+      </div>
+
+      <div class="about-team-intro">
+        <p class="team-lead content-scroll">Participăm la Liga Nord România din cadrul FIRST Tech Challenge, combinând inginerie, programare și lucru în echipă pentru a construi roboți competitivi. Numele nostru reflectă precizia și direcția vectorilor—mişcare măsurată spre obiectivele noastre.</p>
+      </div>
+
+      <div class="team-values">
+        <span class="value-item"><strong>Inginerie</strong>Proiectare, construcție și îmbunătățire continuă pentru robotul nostru</span>
+        <span class="value-item"><strong>Programare</strong>Cod autonom și teleop în Java</span>
+        <span class="value-item"><strong>Lucru în echipă</strong>Colaborare cu partenerii din alianță</span>
+        <span class="value-item"><strong>Dezvoltare</strong>Învățăm din fiecare meci și sezon</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="team" class="section meet-team parallax-section team-parallax">
+    <div class="container">
+      <div class="section-header content-scroll">
+        <span class="section-tag">Echipă</span>
+        <h2 class="section-title">Cunoașteți echipa</h2>
+        <p class="meet-team-desc">Membrii echipei Vectron — Proiectare, Programare și Media & Design</p>
+      </div>
+
+      <div id="team-departments" class="team-departments"></div>
+    </div>
+  </section>
+
+  <section id="robot" class="section robot parallax-section">
+    <div class="container">
+      <div class="section-header content-scroll">
+        <span class="section-tag">Robotul nostru</span>
+        <h2 class="section-title">Vizualizator model 3D</h2>
+        <p class="section-desc">Trage pentru rotire • Scroll pentru zoom</p>
+      </div>
+      <div class="robot-viewer">
+        <div id="robot-loading" class="robot-loading">
+          <div class="robot-loading-spinner"></div>
+          <span>Se încarcă modelul 3D…</span>
+        </div>
+        <div id="robot-canvas"></div>
+        <div class="robot-controls">
+          <button id="reset-view" class="ctrl-btn">Resetează vizualizarea</button>
+          <a href="https://firebasestorage.googleapis.com/v0/b/vectron-storage.firebasestorage.app/o/robot.fbx?alt=media&token=01f6ed2d-4300-472a-8d69-783320b5689e" download="Vectron-Robot.fbx" class="ctrl-btn ctrl-btn-outline">Descarcă modelul</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="stats" class="section stats parallax-section">
+    <div class="container">
+      <div class="section-header content-scroll">
+        <span class="section-tag">Performanță</span>
+        <h2 class="section-title">Clasament mondial</h2>
+      </div>
+      <div class="stats-grid">
+        <div class="stat-card parallax-card cursor-tilt" data-speed="0.02">
+          <span class="stat-value">323<sup>th</sup></span>
+          <span class="stat-label">General</span>
+          <span class="stat-pct">95.76% percentile</span>
+        </div>
+        <div class="stat-card highlight parallax-card cursor-tilt" data-speed="0.025">
+          <span class="stat-value">184<sup>th</sup></span>
+          <span class="stat-label">Autonom</span>
+          <span class="stat-pct">97.59% percentile</span>
+        </div>
+        <div class="stat-card parallax-card cursor-tilt" data-speed="0.018">
+          <span class="stat-value">386<sup>th</sup></span>
+          <span class="stat-label">Teleop</span>
+          <span class="stat-pct">94.92% percentile</span>
+        </div>
+        <div class="stat-card parallax-card cursor-tilt" data-speed="0.022">
+          <span class="stat-value">102,12</span>
+          <span class="stat-label">Cel mai bun OPR</span>
+          <span class="stat-pct">npOPR (Maramu' Festival)</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="competitions" class="section competitions parallax-section">
+    <div class="container">
+      <div class="section-header content-scroll">
+        <span class="section-tag">Competiții</span>
+        <h2 class="section-title">Rezultate recente</h2>
+      </div>
+      <div class="comp-list">
+        <article class="comp-card parallax-card cursor-tilt" data-speed="0.018">
+          <div class="comp-badge">1</div>
+          <div class="comp-info">
+            <h3>Maramu' Robotics Festival</h3>
+            <p class="comp-meta">Feb 7, 2026 • Baia Mare</p>
+            <p class="comp-record">5-1-0 • 102,12 npOPR</p>
+          </div>
+        </article>
+        <article class="comp-card parallax-card cursor-tilt" data-speed="0.022">
+          <div class="comp-badge">1</div>
+          <div class="comp-info">
+            <h3>ValenTech 2</h3>
+            <p class="comp-meta">Feb 14, 2026 • Zalău</p>
+            <p class="comp-record">5-1-0 • 80,37 npOPR</p>
+          </div>
+        </article>
+        <article class="comp-card parallax-card cursor-tilt" data-speed="0.015">
+          <div class="comp-badge">1</div>
+          <div class="comp-info">
+            <h3>Meet the Techs</h3>
+            <p class="comp-meta">Jan 31, 2026 • Satu Mare</p>
+            <p class="comp-record">5-1-0 • 96,02 npOPR</p>
+          </div>
+        </article>
+        <article class="comp-card upcoming parallax-card cursor-tilt" data-speed="0.02">
+          <div class="comp-badge">↑</div>
+          <div class="comp-info">
+            <h3>Liga România Nord</h3>
+            <p class="comp-meta">Feb 21–22, 2026 • Bistrița</p>
+            <p class="comp-record">TeraPlast Arena</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="sponsors" class="section sponsors parallax-section">
+    <div class="container">
+      <div class="section-header content-scroll">
+        <span class="section-tag">Susținere</span>
+        <h2 class="section-title">Sponsorii noștri</h2>
+        <p class="section-desc">Mulțumim partenerilor care ne susțin în construirea roboților și în dezvoltarea echipei</p>
+      </div>
+      <div class="sponsors-grid">
+        <a href="https://andreimuresanudej.ro/" target="_blank" rel="noopener" class="sponsor-card parallax-card cursor-tilt" data-speed="0.02">
+          <img src="img/school-logo.png" alt="Colegiul Național Andrei Mureșanu">
+          <span class="sponsor-name">Colegiul Național „Andrei Mureșanu" Dej</span>
+        </a>
+        <a href="https://biorom.eu/" target="_blank" rel="noopener" class="sponsor-card parallax-card cursor-tilt" data-speed="0.02">
+          <img src="img/sposnor1.png" alt="BioRom">
+          <span class="sponsor-name">BioRom</span>
+        </a>
+        <a href="https://andreimuresanudej.ro/" target="_blank" rel="noopener" class="sponsor-card parallax-card cursor-tilt" data-speed="0.018">
+          <img src="img/sponsor2.png" alt="Asociația Părinților Elevilor din CNAM Dej">
+          <span class="sponsor-name">Asociația Părinților Elevilor din CNAM Dej</span>
+        </a>
+        <a href="https://www.tech-breeze.com/" target="_blank" rel="noopener" class="sponsor-card parallax-card cursor-tilt" data-speed="0.022">
+          <img src="img/sponsor3.png" alt="Tech Breeze">
+          <span class="sponsor-name">Tech Breeze</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section contact parallax-section">
+    <div class="container">
+      <div class="section-header content-scroll">
+        <span class="section-tag">Contact</span>
+        <h2 class="section-title">Scrieți-ne</h2>
+      </div>
+      <div class="contact-links">
+        <a href="https://www.instagram.com/vectron_robotics/" target="_blank" rel="noopener" class="social-link instagram">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+          <span>Instagram</span>
+        </a>
+        <a href="https://www.tiktok.com/@vectronrobotics" target="_blank" rel="noopener" class="social-link tiktok">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64 2.93 2.93 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-1-.05A6.33 6.33 0 0 0 5 20.1a6.34 6.34 0 0 0 10.86-4.43v-7a8.16 8.16 0 0 0 4.77 1.52v-3.4a4.85 4.85 0 0 1-1-.1z"/></svg>
+          <span>TikTok</span>
+        </a>
+        <a href="https://www.facebook.com/vectronrobotics" target="_blank" rel="noopener" class="social-link facebook">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+          <span>Facebook</span>
+        </a>
+        <a href="https://www.google.com/maps/search/?api=1&query=DEJ,%20CJ,%20Romania" target="_blank" rel="noopener" class="social-link maps">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+          <span>Dej, Romania</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <a href="#" class="footer-logo-link">
+            <img src="img/vectron-logo.png" alt="" class="footer-logo">
+            <span class="logo-team">VECTRON</span>
+            <span class="logo-num">17873</span>
+          </a>
+        </div>
+        <div class="footer-links-row">
+          <nav class="footer-nav">
+            <a href="#about">Despre</a>
+            <a href="#team">Echipă</a>
+            <a href="#robot">Robot</a>
+            <a href="#stats">Performanță</a>
+            <a href="#competitions">Competiții</a>
+            <a href="#sponsors">Sponsori</a>
+            <a href="#contact">Contact</a>
+          </nav>
+          <div class="footer-social">
+          <a href="https://www.instagram.com/vectron_robotics/" target="_blank" rel="noopener" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+          </a>
+          <a href="https://www.tiktok.com/@vectronrobotics" target="_blank" rel="noopener" aria-label="TikTok">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64 2.93 2.93 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-1-.05A6.33 6.33 0 0 0 5 20.1a6.34 6.34 0 0 0 10.86-4.43v-7a8.16 8.16 0 0 0 4.77 1.52v-3.4a4.85 4.85 0 0 1-1-.1z"/></svg>
+          </a>
+          <a href="https://www.facebook.com/vectronrobotics" target="_blank" rel="noopener" aria-label="Facebook">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+          </a>
+          <a href="https://github.com/Luca-danciu/Decode-Vectron" target="_blank" rel="noopener" aria-label="Robot code pe GitHub">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+          </a>
+          <a href="https://ftcscout.org/teams/17873" target="_blank" rel="noopener" aria-label="FTCScout">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+          </a>
+        </div>
+        </div>
+        <p class="footer-meta">Echipă FTC din Colegiul Național „Andrei Mureșanu”, Dej • Date de la <a href="https://firstinspires.org" target="_blank" rel="noopener">FIRST</a></p>
+        <p class="footer-copy">© 2026 Vectron Robotics. Toate drepturile rezervate.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script type="importmap">
+  {
+    "imports": {
+      "three": "https://unpkg.com/three@0.160.0/build/three.module.js",
+      "three/addons/": "https://unpkg.com/three@0.160.0/examples/jsm/"
+    }
+  }
+  </script>
+  <script type="module" src="scripts.js"></script>
+</body>
+</html>
